@@ -709,8 +709,22 @@ public class Principal extends javax.swing.JFrame {
         "diseño de obras hidraulicas", "diseño estructural", "diseño de infraestructura vial", 
         "elementos finitos", "eficiencia energetica en edificaciones", "diseño e innovacion 2");
         Info1.setText(String.valueOf(NuevoAlumno.getNuevaCarrera()));} 
-        
-        
+	
+	if ((ActualCarrier1.equals("Ingenieria en Alimentos"))){
+        NuevoAlumno.llenarNuevaCarrera("Ingenieria en Alimentos:",
+	"pensamiento cuantitativo", "ciudadania global", "ciencias de la vida", "algoritmos y programacion basica", "introduccion a la ingenieria de alimentos", "quimica 1",
+	//se ignora coaching
+	"comunicacion efectiva", "estadistica 1", "qumica 2", "fisica 1", "calculo 1", "procesamiento de planificacion y confiteria",			
+	"investigacion y pensamiento cientifico", "quimica organica 1", "calculo 2", "fisica 2", "quimica analitica", "dibujo cad",
+	"guatemala en el contexto mundial", "retos ambientales y sostenibilidad", "quimica organica 2", "algebra lineal 1", "fisicoquimica 1", "analisis quimico en la industria de alimentos",
+	"procesamiento de productos hortofructicolas, lacteos y carnes", "ecuaciones diferenciales 1", "balance de masa y energia", "quimica de alimentos", "bioquimica y nutricion aplicada", "microbiologia de alimentos 1",
+	"selectivo de desarrollo profesional", "analisis sensorial de alimentos", "bioquimica de alimentos", "toxicologia y microbiologia aplicada", "flujo de fluidos", "estadistica 2",
+	"termodinamica quimica 1", "transferencia de calor", "manejo de solidos", "tecnologia en la industria de alimentos", "control de calidad e inocuidad de alimentos", "selectivo de desarollo profesional",
+	"transferencia de masa 1", "tecnologia de empaques para la industria de alimentos", "sistemas de gestion en la industria de alimentos", "legislacion alimentaria", "emprendimiento e innovacion", "", //aqui hay solo 5 clases			       
+        "ingenieria y procesos en la industria de alimentos 1", "investigacion y desarollo de nuevos productos", "biotecnologia aplicada a la industria alimentaria", "diseño de plantas de alimentos", "investigacion de operaciones", "diseño e innovacion en ingenieria 1",
+	"formulacion y evaluacion de proyectos de inversion", "administracion de la cadena de suministros", "innovacion y formulaciones en la industria de alimentos", "ingenieria y procesos en la industria de alimentos 2", "mercadeo aplicado a productos alimenticios", "diseño e innovacion en ingenieria de alimentos 2");
+	Info1.setText(String.valueOf(NuevoAlumno.getNuevaCarrera()));} 
+	    
     }//GEN-LAST:event_Info_Alumno1ActionPerformed
 
     /**
